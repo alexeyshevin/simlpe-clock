@@ -1,0 +1,41 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Sigmar One", cursive;
+  background: linear-gradient(left, #40f9cc, #1dcff4);
+  background: -moz-linear-gradient(left, #40f9cc, #1dcff4);
+  background: -webkit-linear-gradient(left, #40f9cc, #1dcff4);
+}
+.header-block {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 42px;
+}
+h1:hover {
+  color: #ff0000;
+  text-shadow: 5px 5px #558abb;
+  transform: scaleX(0.5);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  min-height: 20vh;
+
+}
+.clock {
+  margin: 0 auto;
+  font-size: 124px;
+  text-shadow: 12px 2px #f8f2e5;
+}
+.clock:hover {
+  transform: scaleX(0.5) rotate(180deg);
+}
